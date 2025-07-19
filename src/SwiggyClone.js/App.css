@@ -1,0 +1,174 @@
+body{
+  /* background-color: white; */
+}
+.swiggy-image{
+  width: 55px;
+  border-radius: 20px;
+}
+
+.swiggy{ 
+    width: 130px; 
+    height: 50px;
+   
+    color: coral;
+}
+
+.location-icon{
+  color: orange;
+}
+
+.top-header{
+  box-shadow: 5px 8px 5px whitesmoke;
+  text-align: center;
+ 
+  
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+  height: 75px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ 
+}
+
+.address{
+  font-weight: bolder;
+  text-decoration: underline;
+  padding-right: 4px;
+}
+
+.address:hover{
+  color: #ff5200;
+}
+
+.list-navbar:hover{
+  color: #ff5200;
+}
+.address-icon{
+  padding-left: 4px;
+  margin-top: 4px;
+}
+
+.list-icon{
+  padding: 6px;
+}
+
+.navbar{
+  display: flex;
+  
+}
+
+.list-navbar{
+ list-style: none;
+  padding: 20px;
+  font-size: large;
+  text-align: center;
+  margin-top: 18px;
+  cursor: pointer;
+ 
+}
+
+.restaurant{
+  text-align: center;
+}
+
+.restaurant-thumbnail{
+  height: 220px;
+  border-radius: 30px;
+  
+}
+
+.restaurant-card{
+border-radius: 30px;
+}
+
+.restaurant-card:hover{ 
+  transform:scale(0.9);
+  transition-duration: 300ms;
+}
+
+.search-layout{
+  text-align: center;
+  margin-top: 30px;
+}
+.search-input{
+  width: 500px;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 20px;
+}
+.search-btn{
+  margin: 30px;
+  border-radius: 10px;
+  background-color: #ff5200;
+  color: black;
+  
+}
+
+.high-rating{
+  color:green;
+}
+
+.avg-rating{
+  color: yellow;
+}
+
+.low-rating{
+  color: red;
+}
+
+a{
+ text-decoration: none; 
+}
+
+.hyderabad{
+  color: yellow;
+ 
+}
+
+#list{
+  cursor: pointer;
+}
+
+.image-pic{
+  height: 150px;
+}
+
+.categories-section{
+  width: 30px;
+  height: 30px;
+  background-color: #e2e2e7;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.arrow{
+  display: flex;
+  font-size:28px;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-items{
+  cursor: pointer;
+  max-width: 1000px;
+  margin: 15px auto;
+  display: flex;
+  overflow: hidden;
+  flex-shrink: 0;
+  
+}
+
+.food-image:hover{
+  transform:scale(0.9);
+  transition-duration: 300ms;
+}
+

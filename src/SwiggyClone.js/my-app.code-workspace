@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../OneDrive/Desktop/backEnd"
+		},
+		{
+			"path": "../../../OneDrive/Desktop/red-rose"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "backEnd"
+	}
+}
